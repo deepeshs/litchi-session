@@ -1,0 +1,32 @@
+{
+  "name": "litchi-session",
+  "version": "0.0.1",
+  "description": "A simple session management utility for NodeJS web applications",
+  "main": "Session.js",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "litchi-cookie": "0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepeshs/litchi-session.git"
+  },
+  "keywords": [
+    "session",
+    "cookie",
+    "HTTP"
+  ],
+  "author": {
+    "name": "Deepesh Shah"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepeshs/litchi-session/issues"
+  },
+  "homepage": "https://github.com/deepeshs/litchi-session#readme"
+}

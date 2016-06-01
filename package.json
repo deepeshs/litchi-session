@@ -1,6 +1,6 @@
 {
   "name": "litchi-session",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple session management utility for NodeJS web applications",
   "main": "Session.js",
   "engines": {

@@ -7,12 +7,15 @@
     "node": ">= 0.10"
   },
   "scripts": {
-    "test": "mocha test --recursive --watch --bail --check-leaks"
+    "test": "mocha test --recursive --watch --bail --check-leaks",
+    "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/"
   },
   "dependencies": {
     "litchi-cookie": "0.0.2"
   },
   "devDependencies": {
+    "istanbul": "^0.4.3",
     "mocha": "*"
   },
   "repository": {
